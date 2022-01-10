@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:widgets/screens/listView1.dart';
+import 'package:widgets/screens/listView2.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Material App', home: ListView1()
+    return MaterialApp(title: 'Material App', home: ListView2()
 
         /*Scaffold(
         appBar: AppBar(
